@@ -1,0 +1,7 @@
+resource_group_name  = "puppeteer"
+location             = "East Us"
+vm-size              = "Standard_B1s"
+admin-user           = "mersal"
+admin-password       = "Test@123"
+container_name       = "puppeteer-artifacts"
+storage_account_name = "puppeteerartifacts001"
