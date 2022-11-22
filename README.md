@@ -22,7 +22,7 @@ A Resource group and Storage Blob with Puppetter.zip must exist already. Because
 - terraform plan
 - terraform apply -auto-approve
 
-2. To create Linux VM (Note that "node wikiTest.js" is not enabled at the moment, but it is simple to integrate into exiting script)
+2. To create Linux VM 
 
 - Switch to Terraform-2-Create-VM directory
 - Fill in the terraform.tfvars
