@@ -3,7 +3,12 @@ Terraform script to create Azure Linux VM and run custom script and destroy via 
 
 
 #  Architecture
-Pre-Requisites - A Resource group and Storage Blob with Puppetter.zip must exist already. Because from this Blob only the Linux VM will download the zip file and execute the command. Also, this blob is used to upload the log reports from the Linux VM. Linux VM will be granted necessary permission to this blob for these action using Terraform. Note that, VM also will be created in the same resource group
+
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+
+# Pre-Requisites
+
+A Resource group and Storage Blob with Puppetter.zip must exist already. Because from this Blob only the Linux VM will download the zip file and execute the command. Also, this blob is used to upload the log reports from the Linux VM. Linux VM will be granted necessary permission to this blob for these action using Terraform. Note that, VM also will be created in the same resource group
 
 
 # Method to run from local environment
